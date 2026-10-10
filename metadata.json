@@ -1,0 +1,8 @@
+{
+  "name": "Helium Browser",
+  "description": "Privacy-first Chromium browser with unbiased ad-blocking, Zen mode, anti-fingerprinting noise, native bangs, and no bloat.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Exact Helium RefColorMixer palette from patches/helium/ui/helium-color-scheme.patch */
+    --helium-primary-40: #3551d2;
+    --helium-primary-50: #516bec;
+    --helium-secondary-10: #171a2c;
+    --helium-secondary-12: #1b1f30;
+    --helium-secondary-15: #222537;
+    --helium-secondary-20: #2c2f42;
+    --helium-secondary-30: #434659;
+    --helium-secondary-60: #8d8fa6;
+    --helium-secondary-99: #fefbff;
+  }
+
+  body {
+    background-color: var(--helium-secondary-10);
+    color: var(--helium-secondary-99);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Custom scrollbars matching Helium's fluent scrollbar patch */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(141, 143, 166, 0.25);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(141, 143, 166, 0.45);
+}

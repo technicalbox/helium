@@ -1,0 +1,22 @@
+{
+  "name": "Helium Browser",
+  "short_name": "Helium",
+  "description": "Privacy-first Chromium browser with Zen mode, Ask Gemini side panel, and anti-fingerprinting shields.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#171a2c",
+  "theme_color": "#171a2c",
+  "icons": [
+    {
+      "src": "/resources/branding/product_logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/resources/branding/app_icon/raw.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
